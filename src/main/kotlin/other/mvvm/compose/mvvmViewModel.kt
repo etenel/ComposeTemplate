@@ -3,7 +3,7 @@ package other.mvvm.compose
 fun mvvmViewModel(packageName:String,
                   composeClass:String)="""
                       
-package ${packageName}.viewModel
+package ${packageName}.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.wls.base.entity.ResultState
