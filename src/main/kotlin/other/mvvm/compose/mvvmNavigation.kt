@@ -1,6 +1,7 @@
 package other.mvvm.compose
 
 fun  mvvmNavigation(packageName: String, composeClass: String) = """
+package $packageName    
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
